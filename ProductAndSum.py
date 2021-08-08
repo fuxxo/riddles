@@ -102,7 +102,7 @@ if 0:
     Aplane = []
     Bplane = []
     for i,e in enumerate(log['trace']):
-inve        trace = go.Scattergl(
+        trace = go.Scattergl(
             x = [ k[1][0] for k in e[1]],
             y = [ k[1][1] for k in e[1]],
             mode = 'markers',
